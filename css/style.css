@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
 @import url('https://fonts.googleapis.com/css?family=Coda|Sarala');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     overflow-x: hidden;
 }
@@ -300,6 +300,8 @@ section.success a.active {
   padding: 16px 32px !important;
 
 }
+
+
 @media screen and (max-width: 1024px){
   .img-thumbnail{
     max-width: 80%;
@@ -319,6 +321,8 @@ section.success a.active {
       padding-top: 80px;
   }
 }
+
+
 @media screen and (max-width: 485px) {
   .img-thumbnail{
     max-width: 30%;
@@ -356,6 +360,12 @@ section.success a.active {
     .col-sm-4{
         padding-top: 20px;
     }
+    #portfolio .portfolio-item .portfolio-link{
+      max-width: unset;
+    }
+    iframe{
+      width: 100%;
+    }
 }
 
 @media(min-width:767px) {
@@ -365,6 +375,11 @@ section.success a.active {
 
 }
 
+@media screen and (max-width: 545px){
+  .custom{
+    width: unset !important;
+  }
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #606060;
