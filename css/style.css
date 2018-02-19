@@ -56,10 +56,10 @@ a{
 }
 
 hr{
-  border-top: 1px solid #eee0 ;
+  border-top: 1px solid rgba(255, 255, 255, 0);
 }
 .hr-hidden{
-  color: #FFF0;
+  color: rgba(255, 255, 255, 0);
 }
 .img-centered {
     margin: 0 auto;
@@ -169,7 +169,7 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
     background: #fff !important;
-    box-shadow: 1px 4px 15px #0003;
+    box-shadow: 1px 4px 15px #0000004d;
 }
 .navbar-default .navbar-nav{
   color: #000 !important;
@@ -445,7 +445,7 @@ section.success a.active {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
