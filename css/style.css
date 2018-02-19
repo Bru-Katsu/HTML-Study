@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
 @import url('https://fonts.googleapis.com/css?family=Coda|Sarala');
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     overflow-x: hidden;
 }
@@ -32,7 +33,6 @@ iframe{
 }
 .parallax-2{
   width: 100%;
-  height: 100vh;
   display: block;
   overflow: hidden;
   background-attachment: fixed;
@@ -64,7 +64,10 @@ hr{
 .img-centered {
     margin: 0 auto;
 }
-
+.thumbnail{
+  background-color: #f8f8f8;
+  border: 1px solid #dadada;
+}
 header {
  text-align: center;
  color: #212121;
@@ -76,7 +79,10 @@ header .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-
+.p-thumb{
+font-size: 1.2rem;
+font-family:'Roboto', monospace;
+}
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -85,7 +91,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
