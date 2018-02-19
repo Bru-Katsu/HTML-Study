@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html{
+  height: 100%;
+}
+body{
+    width:100%;
+    height:100%;
+    background-position:absolute;
+    background-repeat:no-repeat !important;
+    background-size:cover;
+    background: rgba(234,110,72,1);
+    background: -moz-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(234,110,72,1)), color-stop(100%, rgba(188,26,99,1)));
+    background: -webkit-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+}
+
+.col-sm-12{
+  background-color:#3c3c3c; 
+  color:white
+}
+.colum{
+  padding-top:20px;
+  margin-top:3%;
+}
+
+.text-left{
+  margin-left:10px;
+}
+.text-area{
+  background-color:white;
+  width:100%;
+  height:200px;
+  margin-bottom:60px;
+  border-radius:5px;
+}
+.btn{
+  margin-left:20px;
+}
+h1{
+  font-family:'Open Sans',monospace;
+  text-transform:uppercase;
+  
+}
+#out{
+  color:black;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input{
+  margin-right:10px;
+}
