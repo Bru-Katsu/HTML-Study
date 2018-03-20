@@ -250,7 +250,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgb(20, 20, 20);
+    background: rgba(20, 20, 20, 0.49);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -258,7 +258,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: .7;
+    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
