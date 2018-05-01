@@ -115,6 +115,9 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+    .container{
+      width: auto;
+    }
 }
 
 @media(min-width:768px) {
