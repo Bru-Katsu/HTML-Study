@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 iframe{
-  width: 400px;
+  width: 500px;
   height: 400px !important;
   border: 2px solid #777;
 }
@@ -249,7 +249,7 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 500px;
     margin-top: 20px;
 }
 
