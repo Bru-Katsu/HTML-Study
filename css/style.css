@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 iframe{
-  width: 360px;
+  width: 400px;
   height: 400px !important;
   border: 2px solid #777;
 }
@@ -77,7 +77,6 @@ header {
 }
 
 header .container {
-    width: 100%;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -118,6 +117,11 @@ header .intro-text .skills {
     }
     .container{
       width: auto;
+    }
+    .custom2{
+      letter-spacing: 2px;
+      font-size: 23px;
+      padding: 6px 32px !important;
     }
 }
 
