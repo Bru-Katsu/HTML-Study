@@ -1,9 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css?family=Nova+Square');
-@import url('https://fonts.googleapis.com/css?family=Coda|Sarala');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 iframe{
   width: 500px;
