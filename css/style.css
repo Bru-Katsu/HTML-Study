@@ -9,6 +9,12 @@ iframe{
 .navbar-default .navbar-toggle{
   border-color: inherit;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  color: #FFF;
+}
+.navbar-default .navbar-toggle .icon-bar:hover{
+  color: #58cad8 !important;
+}
 .fade-in {
   visibility: visible;
   opacity: 1;
