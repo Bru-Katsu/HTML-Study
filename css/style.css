@@ -13,7 +13,7 @@ iframe{
   background-color: #FFF;
 }
 .navbar-default .navbar-toggle .icon-bar:hover{
-  color: #58cad8 !important;
+  background-color: #58cad8 !important;
 }
 .fade-in {
   visibility: visible;
