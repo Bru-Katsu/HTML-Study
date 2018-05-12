@@ -12,7 +12,7 @@ iframe{
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color: #FFF;
 }
-.navbar-default .navbar-toggle .icon-bar:hover{
+.navbar-default .navbar-toggle .icon-bar:active{
   background-color: #58cad8 !important;
 }
 .fade-in {
