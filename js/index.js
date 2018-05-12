@@ -21,9 +21,11 @@ $("#top").click(function() {
 });
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").css("padding","3px 0");
+        $(".navbar-fixed-top").removeClass("nocollap");
+        $(".navbar-fixed-top").addClass("collap");
     } else {
-        $(".navbar-fixed-top").css("padding","25px 0");
+        $(".navbar-fixed-top").removeClass("collap");
+        $(".navbar-fixed-top").addClass("nocollap");
     }
 });
 $('.navbar-nav>li>a').on('click', function(){

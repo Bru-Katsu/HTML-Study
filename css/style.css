@@ -115,11 +115,6 @@ header .intro-text .skills {
     .container{
       width: auto;
     }
-    .custom2{
-      letter-spacing: 2px;
-      font-size: 23px;
-      padding: 6px 32px !important;
-    }
 }
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -140,6 +135,7 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 .btn-project{
   text-transform: uppercase;
@@ -324,6 +320,12 @@ section.success a.active {
   transform: skewX(-15deg);
   z-index: 1;
 }
+.collap{
+  padding: 3px 0;
+}
+.nocollap{
+  padding: 25px 0;
+}
 @media screen and (max-width: 1024px){
   .img-thumbnail{
     max-width: 80%;
@@ -379,6 +381,9 @@ section.success a.active {
     iframe{
       width: 100%;
     }
+    .collap, .nocollap{
+      padding: 5px 0;
+    }
 }
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -388,6 +393,12 @@ section.success a.active {
 @media screen and (max-width: 545px){
   .custom{
     width: unset !important;
+  }
+  .custom-f, .custom2{
+    font-size: 20px;
+  }
+  .navbar-fixed-top{
+    padding: 5px 0 !important;
   }
 }
 .btn-outline {
