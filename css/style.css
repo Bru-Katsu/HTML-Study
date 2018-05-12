@@ -320,11 +320,21 @@ section.success a.active {
   transform: skewX(-15deg);
   z-index: 1;
 }
+.nav-tra{
+  border-bottom: 4px solid rgba(0,0,0,0);
+}
+.nav-tra:hover{
+  border-bottom: 4px solid #58cad8;
+  transition: 0.2s;
+}
 .collap{
   padding: 3px 0;
 }
 .nocollap{
   padding: 25px 0;
+}
+@media (min-width: 394px) and (max-width: 990px) {
+  /*any acontent here*/
 }
 @media screen and (max-width: 1024px){
   .img-thumbnail{
