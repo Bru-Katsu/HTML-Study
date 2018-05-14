@@ -2,31 +2,18 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-iframe{
-  width: 500px;
-  height: 400px !important;
-  border: 2px solid #777;
+.fixed-top{
+  padding: 25px 0;
 }
-.navbar-default .navbar-toggle{
+.navbar-light .navbar-toggle{
   border-color: #FFF;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+.navbar-light .navbar-toggle:focus, .navbar-light .navbar-toggle:hover{
   background-color: #FFF;
 }
 .navbar-header .navbar-toggle:hover .icon-bar{
-  background-color: #58cad8;
+  background-color: #58cad8 !important;
   transition: 0.5s;
-}
-
-.fade-in {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 1s linear;
-}
-.fade-out {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s 1s, opacity 1s linear;
 }
 .parallax{
   width: 100%;
@@ -49,12 +36,7 @@ iframe{
   background-size: cover;
   background-image: url("../src/wallhaven-615609.png");
 }
-p {
-  font-size: 30px;
-}
-p.small {
-  font-size: 16px;
-}
+
 a{
   outline: 0;
   color: #2c3e50;
@@ -81,6 +63,9 @@ header {
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+.navbar-light .navbar-toggler{
+  border-color: #fff;
 }
 .p-thumb{
 font-size: 1.2rem;
@@ -150,8 +135,8 @@ header .intro-text .skills {
 .navbar a:focus {
     outline: 0;
 }
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
-  color: #58cad8;
+.navbar-light .navbar-nav > li > a:focus, .navbar-light .navbar-nav > li > a:hover{
+  color: #58cad8 !important;
   transition: 0.5s;
 }
 .navbar .navbar-nav {
@@ -160,16 +145,16 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-.navbar-default,
+.navbar-light,
 .navbar-inverse {
     border: 0;
     background: #fff !important;
     box-shadow: 1px 4px 15px #0000004d;
 }
-.navbar-default .navbar-nav{
+.navbar-light .navbar-nav{
   color: #000 !important;
 }
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
   color:#fff;
 }
 .navbar-brand{
@@ -263,10 +248,11 @@ section.success a.active {
   z-index: 5;
 }
 .custom{
-  background-color: white;
+  font-size: 26px;
   color: black;
   font-family: 'Coda',monospace;
   font-size: 33px;
+  padding: 16px 32px !important;
 }
 .custom2{
   color: #e3e3e3;
@@ -290,12 +276,23 @@ section.success a.active {
   display: inline-block;
   position: absolute;
   left: 0;
-  bottom: 68%;
+  bottom: 76%;
   width: 100%;
   height: 1px;
   z-index: 0;
 }
 .custom2:before{
+  content: '';
+  background: #555;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 100%;
+  height: 1px;
+  z-index: 0;
+}
+.custom:before{
   content: '';
   background: #555;
   display: inline-block;
@@ -320,19 +317,38 @@ section.success a.active {
   transform: skewX(-15deg);
   z-index: 1;
 }
-.nav-tra{
-  border-bottom: 4px solid rgba(0,0,0,0);
+.navbar-brand, .ml-auto{
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.nav-tra:hover{
-  border-bottom: 4px solid #58cad8;
-  transition: 0.2s;
+ .navbar-toggler{
+   margin-right: 15px;
+ }
+.active{
+  color: #58cad8 !important;
+}
+.nav-link:after {
+  content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.nav-link:hover:after{
+  width: 100%;
+	background:#58cad8;
 }
 .collap{
   padding: 3px 0;
+  transition: 0.5s;
 }
 .nocollap{
   padding: 25px 0;
+  transition: 0.5s;
 }
+
 @media (min-width: 394px) and (max-width: 990px) {
   /*any acontent here*/
 }

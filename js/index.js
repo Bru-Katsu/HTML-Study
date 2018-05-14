@@ -6,7 +6,7 @@ $("#header1").click(function() {
 });
 $("#header2").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top
+        scrollTop: $("#projects").offset().top
     }, 1000);
 });
 $("#header3").click(function() {
@@ -21,11 +21,11 @@ $("#top").click(function() {
 });
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").removeClass("nocollap");
-        $(".navbar-fixed-top").addClass("collap");
+        $(".fixed-top").removeClass("nocollap");
+        $(".fixed-top").addClass("collap");
     } else {
-        $(".navbar-fixed-top").removeClass("collap");
-        $(".navbar-fixed-top").addClass("nocollap");
+        $(".fixed-top").removeClass("collap");
+        $(".fixed-top").addClass("nocollap");
     }
 });
 $('.navbar-nav>li>a').on('click', function(){

@@ -1,43 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects</title>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body id="page-top" class="index" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top" id="top"> Home </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" role="tablist">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                  <li class="page-scroll" id="header2">
-                        <a class="nav-tra" href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
-                  </li>
-                   <li class="page-scroll" id="header1">
-                        <a class="nav-tra" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
-                    </li>
-                    <li class="page-scroll" id="header3">
-                        <a class="nav-tra" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css?family=Coda|Montserrat:700|Roboto" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script  src="js/index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="page-top" class="index" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#top" id="top">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item " id="header2">
+            <a class="nav-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item " id="header1">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item " id="header3">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header class="parallax" id="home">
         <div class="container">
@@ -52,118 +48,113 @@
             </div>
         </div>
     </header>
-     <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="custom2 "><span class="sp">Projects</span></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                  <div class="thumbnail">
-                    <a target="_blank" class="portfolio-link" href="https://bru-katsu.github.io/Projects/tribute-gates/" >
-                        <div class="caption">
-                            <div class="caption-content">
-                              <button type="button" class="btn btn-outline-light btn-project">See Project</button>
-                            </div>
-                        </div>
-                        <img class="img-responsive" title="Tributte to Bill Gates" src="src/Screenshot_2.png"  allowtransparency="true" scrolling="no" sandbox="allow-scripts allow-pointer-lock" tabindex="-1"  frameborder="0"></iframe>
-                    </a>
-                    <h3 class="text-center">One tribute to gates</h3>
-                    <p class="text-center p-thumb">"A tribute to codecamp, who inspired me on this journey."</p>
-                  </div>
-                    <hr>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                  <div class="thumbnail">
-                    <a  class="portfolio-link" target="_blank" href="https://bru-katsu.github.io/Projects/academic-grading-calculator-js/" >
-                        <div class="caption">
-                            <div class="caption-content">
-                                <button type="button" class="btn btn-outline-light btn-project">See Project</button>
-                            </div>
-                        </div>
-                        <img class="img-responsive" title="Tributte to Bill Gates" src="src/Screenshot_1.png"  allowtransparency="true" scrolling="no" sandbox="allow-scripts allow-pointer-lock" tabindex="-1"  frameborder="0"></iframe>
-                    </a>
-                    <h3 class="text-center">Average Calculator JS</h3>
-                    <p class="text-center p-thumb">"Well.. you can see the average of two numbers with that."</p>
-                  </div>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                  <div class="thumbnail">
-                    <a  class="portfolio-link" target="_blank" href="https://bru-katsu.github.io/Projects/js-imc-calculator/">
-                        <div class="caption">
-                            <div class="caption-content">
-                              <button type="button" class="btn btn-outline-light btn-project">See Project</button>
-                            </div>
-                        </div>
-                        <img class="img-responsive" title="Tributte to Bill Gates" src="src/Screenshot_3.png"  allowtransparency="true" scrolling="no" sandbox="allow-scripts allow-pointer-lock" tabindex="-1"  frameborder="0"></iframe>
-                    </a>
-                      <h3 class="text-center "> Simple IMC Calculator JS</h3>
-                      <p class="text-center p-thumb">"Don't know if you're too fat or too skinny? This can help you."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-        <div class="container parallax-2 text-color" id="about">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <div class="container">
-                  <h2 class="custom">About<span class="blink">_</span></h2>
-                </div>
-              </div>
-            </div>
-         <div class="row ">
-              <div class="container">
-                <div class="col-sm-4 zero" id="pad">
-                    <img src="http://i67.tinypic.com/jt16w9.jpg" class="img-thumbnail img-responsive" >
-                    <h1 class="custom">Designer and Web Developer<span class="blink" style="display inline">_</span></h1>
-                </div>
-                <div class="col-sm-4 zero">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in porttitor mauris. Praesent venenatis odio a pharetra ornare. Cras bibendum est id ex lobortis, a dapibus neque iaculis. Morbi suscipit convallis aliquet. Aenean viverra fermentum eros, mattis posuere mauris aliquet semper. Nulla at orci vehicula, dignissim erat in, maximus mi. Vivamus placerat purus quis scelerisque suscipit. In pretium lorem vitae quam lobortis convallis.</p>
-                </div>
-                <div class="col-sm-4 zero">
-                    <p>Fusce vitae enim vestibulum nulla placerat pellentesque. Sed sit amet lacus mi. Suspendisse id maximus tortor, in ultrices ante. Sed pulvinar neque nec vehicula tristique. Vivamus vehicula purus ut malesuada convallis. Sed condimentum pharetra neque, ut facilisis magna. In hac habitasse platea dictumst. In accumsan molestie mauris in luctus. Praesent sollicitudin nunc ut maximus tincidunt. </p>
-                </div>
-              </div>
-            </div>>
-        </div>
-    <footer class="text-center">
-        <div class="footer-above" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-12">
-                      <h2 class="custom-f"><span class="sp">Social Medias</span></h2>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/profile.php?id=100002815362249" class="btn-social btn-outline" target="__blank"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.behance.net/brunoalvesb8d9" class="btn-social btn-outline" target="__blank"><i class="fab fa-behance"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/BruKatsu/" class="btn-social btn-outline" target="__blank"><i class="fab fa-codepen"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                       <a href="https://github.com/Bru-Katsu" target="__blank">BruKatsu</a> 2018
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-<link href="https://fonts.googleapis.com/css?family=Coda|Montserrat:700|Roboto" rel="stylesheet">
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script  src="js/index.js"></script>
+    <section >
+       <div class="container" id="projects">
+           <div class="row">
+               <div class="col-lg-12 text-center">
+                   <h2 class="custom2 "><span class="sp">Projects</span></h2>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-sm-4 portfolio-item">
+                 <div class="card-deck">
+                   <div class="card">
+                     <a target="_blank" href="https://bru-katsu.github.io/Projects/tribute-gates/">
+                       <img class="card-img-top" src="src/Screenshot_2.png" alt="Card image cap">
+                     </a>
+                     <div class="card-body">
+                       <h5 class="text-center card-title">One tribute to gates</h5>
+                       <p class="text-center card-text">"A tribute to codecamp, who inspired me on this journey."</p>
+                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                     </div>
+                   </div>
+                   <hr>
+                 </div>
+               </div>
+               <div class="col-sm-4 portfolio-item">
+                 <div class="card-deck">
+                   <div class="card">
+                     <a target="_blank" href="https://bru-katsu.github.io/Projects/academic-grading-calculator-js/">
+                       <img class="card-img-top" src="src/Screenshot_1.png" alt="Card image cap">
+                     </a>
+                     <div class="card-body">
+                       <h5 class="card-title text-center">Average Calculator JS</h5>
+                       <p class="card-text text-center">"Well.. you can see the average of two numbers with that."</p>
+                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                     </div>
+                   </div>
+                   <hr>
+                 </div>
+               </div>
+               <div class="col-sm-4 portfolio-item">
+                 <div class="card-deck">
+                   <div class="card">
+                     <a target="_blank" href="https://bru-katsu.github.io/Projects/js-imc-calculator/">
+                       <img class="card-img-top" src="src/Screenshot_3.png" alt="Card image cap">
+                     </a>
+                     <div class="card-body">
+                       <h5 class="card-title text-center">Simple IMC Calculator JS</h5>
+                       <p class="card-text text-center">"Don't know if you're too fat or too skinny? This can help you."</p>
+                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                     </div>
+                   </div>
+                   <hr>
+                 </div>
+               </div>
+           </div>
+       </div>
+   </section>
+       <div class="container-fluid parallax-2 text-color" id="about">
+             <div class="container-fluid">
+               <div class="col-lg-12 text-center">
+                 <div class="container">
+                   <h2 class="custom"><span class="sp">About<span class="blink">_</span></span></h2>
+                 </div>
+               </div>
+               <div class="row ">
+               <div class="col-sm-4 zero" id="pad">
+                   <img src="http://i67.tinypic.com/jt16w9.jpg" class="img-thumbnail img-responsive" >
+                   <h1 class=""><span>Designer and Web Developer<span class="blink" style="display inline">_</span></span></h1>
+               </div>
+               <div class="col-sm-4 zero">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in porttitor mauris. Praesent venenatis odio a pharetra ornare. Cras bibendum est id ex lobortis, a dapibus neque iaculis. Morbi suscipit convallis aliquet. Aenean viverra fermentum eros, mattis posuere mauris aliquet semper. Nulla at orci vehicula, dignissim erat in, maximus mi. Vivamus placerat purus quis scelerisque suscipit. In pretium lorem vitae quam lobortis convallis.</p>
+               </div>
+               <div class="col-sm-4 zero">
+                   <p>Fusce vitae enim vestibulum nulla placerat pellentesque. Sed sit amet lacus mi. Suspendisse id maximus tortor, in ultrices ante. Sed pulvinar neque nec vehicula tristique. Vivamus vehicula purus ut malesuada convallis. Sed condimentum pharetra neque, ut facilisis magna. In hac habitasse platea dictumst. In accumsan molestie mauris in luctus. Praesent sollicitudin nunc ut maximus tincidunt. </p>
+               </div>
+             </div>
+           </div>
+       </div>
+   <footer class="text-center">
+       <div class="footer-above" id="contact">
+           <div class="container">
+               <div class="row">
+                   <div class="footer-col col-md-12">
+                     <h2 class="custom-f"><span class="sp">Social Medias</span></h2>
+                       <ul class="list-inline">
+                           <li class="list-inline-item">
+                               <a href="https://www.facebook.com/profile.php?id=100002815362249" class="btn-social btn-outline" target="__blank"><i class="fab fa-facebook-f"></i></a>
+                           </li>
+                           <li class="list-inline-item">
+                               <a href="https://www.behance.net/brunoalvesb8d9" class="btn-social btn-outline" target="__blank"><i class="fab fa-behance"></i></a>
+                           </li>
+                           <li class="list-inline-item">
+                               <a href="https://codepen.io/BruKatsu/" class="btn-social btn-outline" target="__blank"><i class="fab fa-codepen"></i></a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="footer-below">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-12">
+                      <a href="https://github.com/Bru-Katsu" target="__blank">BruKatsu</a> 2018
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+  </body>
 </html>
