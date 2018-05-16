@@ -150,7 +150,7 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
     background: #fff !important;
-    box-shadow: 1px 4px 15px #0000004d;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.31);
 }
 .navbar-light .navbar-nav{
   color: #000 !important;
