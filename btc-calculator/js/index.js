@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.valor').mask('000,000,000,000,000.00', {reverse: true});
+  $('.valor').mask('000.000.000.000.000,00', {reverse: true});
 $.ajax({
   url: 'https://blockchain.info/pt/ticker',
   dataType: 'json',
@@ -16,9 +16,8 @@ $.ajax({
   error: function() {}
 });
   $('.subm').click(function(){
-    var b = $('.valor').val().replace(new RegExp(',', "g"),'');
+    var b = $('.valor').val().replace(/\./g, '').replace(/\,/g, '.');
     var c = $('#mySelect option:selected').text();
-    console.log(b);
     $.ajax({
       url: 'https://blockchain.info/tobtc?currency='+c+'&value='+b,
       success: function(data){
