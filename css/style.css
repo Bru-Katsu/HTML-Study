@@ -633,6 +633,9 @@ footer .footer-below {
 #card3:hover .overlay {
   height: 70.3%;
 }
+.card-deck{
+  margin-top: 25px;
+}
 .text {
   white-space: nowrap;
   position: relative;
