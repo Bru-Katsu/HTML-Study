@@ -1,20 +1,24 @@
 $(document).ready(function(){
-$("#header1").click(function() {
+$("#header1").click(function(e) {
+  e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#about").offset().top
     }, 1000);
 });
-$("#header2").click(function() {
+$("#header2").click(function(e) {
+  e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#projects").offset().top
     }, 1000);
 });
-$("#header3").click(function() {
+$("#header3").click(function(e) {
+  e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
     }, 1000);
 });
-$("#top").click(function() {
+$("#top").click(function(e) {
+  e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 1000);
