@@ -370,9 +370,12 @@ section.success a.active {
   transition: 0.5s;
 }
 
-@media (min-width: 394px) and (max-width: 990px) {
+@media screen and (max-width: 999px) {
   p{
     font-size: 12px;
+  }
+  .nav-link:hover::after{
+    width: 0% !important;
   }
 }
 @media screen and (max-width: 1024px){
