@@ -450,6 +450,11 @@ section.success a.active {
     padding: 5px 0 !important;
   }
 }
+@media screen and (max-width: 574px){
+  .zero{
+    width: 100% !important;
+  }
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #606060;
