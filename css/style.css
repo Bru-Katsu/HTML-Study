@@ -394,6 +394,16 @@ section.success a.active {
       padding-top: 80px;
   }
 }
+@media screen and (max-width: 352px) {
+  .fa-3x {
+      font-size: 2em !important;
+  }
+}
+@media (min-width:352px) and (max-width: 396px) {
+  .fa-3x {
+      font-size: 2.5em !important;
+  }
+}
 @media screen and (max-width: 485px) {
   .img-thumbnail{
     max-width: 50%;
@@ -410,6 +420,7 @@ section.success a.active {
   .col-sm-4{
       padding-top:0px;
   }
+
 }
 @media screen and (max-width: 768px) {
     .img-thumbnail{
