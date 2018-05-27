@@ -311,8 +311,8 @@ section.success a.active {
   z-index: 0;
 }
 .sp{
-  background-color: #000;
-  color: #fff;
+  background-color: #ececec;
+  color: black;
   display: inline-block;
   padding: 5px 13px;
   position: relative;
@@ -371,17 +371,19 @@ section.success a.active {
 }
 
 @media (min-width: 394px) and (max-width: 990px) {
-  /*any acontent here*/
+  p{
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 1024px){
   .img-thumbnail{
-    max-width: 80%;
+    max-width: 40%;
   }
   #pad{
     padding-top: 125px;
   }
   p{
-    font-size: 22px;
+    font-size: 14px;
   }
   .custom{
   }
@@ -414,7 +416,7 @@ section.success a.active {
       padding-top: 25px;
     }
     p{
-      font-size: 18px;
+      font-size: 12px;
     }
     .custom{
       width: 480px;
@@ -529,7 +531,9 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-image:linear-gradient(141deg, #fff 0%, #c6c9c9 51%, #bfbfbf 75%);
+  background-color:#ececec;
+
+/*  background-image:linear-gradient(141deg, #fff 0%, #c6c9c9 51%, #bfbfbf 75%);*/
 }
 .gradient{
   background: radial-gradient(circle, red, yellow, green);
@@ -542,7 +546,8 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #ececec;
+  background-color: #f6f6f6;
+  border-top: solid 2px #d1d1d1;
 }
 .footer-below a{
   color: #58cad8 !important;
