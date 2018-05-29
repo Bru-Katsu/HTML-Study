@@ -1,5 +1,6 @@
 $(document).ready(function(){
   new Vivus('my-svg', {type: 'sync',duration: 170});
+  new Vivus('my-svg2', {type: 'sync',duration: 170});
 $("#header1").click(function(e) {
   e.preventDefault();
     $('html, body').animate({
