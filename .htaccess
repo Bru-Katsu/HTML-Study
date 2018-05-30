@@ -1,0 +1,35 @@
+#Força a utilizar Cache-Control e Expires header
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 month"
+ ExpiresByType text/cache-manifest "access plus 0 seconds"
+ # Html
+ # Data
+ # Feed
+ # Favicon
+ # Media: images, video, audio
+ ExpiresByType src/Screenshot_1.png "access plus 1 month"
+ ExpiresByType src/Screenshot_2.png "access plus 1 month"
+ ExpiresByType src/Screenshot_3.png "access plus 1 month"
+ ExpiresByType src/Screenshot_4.png "access plus 1 month"
+ ExpiresByType src/jt16w9.jpg "access plus 1 month"
+ ExpiresByType src/wallhaven-272910.jpg "access plus 1 month"
+ # HTC files
+ # Webfonts
+ # CSS / JS
+ ExpiresByType css/style.css "access plus 1 year"
+ ExpiresByType js/index.js "access plus 1 year"
+ ExpiresByType src/bootstrap-4.0.0/css/bootstrap.min.css  "access plus 1 year"
+ ExpiresByType src/bootstrap-4.0.0/js/bootstrap.min.js  "access plus 1 year"
+</IfModule>
+#Força o IE a sempre carregar utilizando a última versão disponível
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  <FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>
