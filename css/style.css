@@ -668,16 +668,16 @@ footer .footer-below {
   transition: .5s ease;
 }
 #card1:hover .overlay {
-  height: 70.3%;
+  height: 80%;
   opacity: 1;
 }
 #card2:hover .overlay {
-  height: 70.3%;
+  height: 80%;
   opacity: 1;
 
 }
 #card3:hover .overlay {
-  height: 70.3%;
+  height: 80%;
   opacity: 1;
 
 }
