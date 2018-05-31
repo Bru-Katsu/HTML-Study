@@ -15,18 +15,28 @@ $.ajax({
   },
   error: function() {}
 });
+
   $('.subm').click(function(){
     var b = $('.valor').val().replace(/\./g, '').replace(/\,/g, '.');
     var c = $('#mySelect option:selected').text();
-    $.ajax({
-      url: 'https://blockchain.info/tobtc?currency='+c+'&value='+b,
-      success: function(data){
-        var a = (data);
-        $('#val').html(a);
-      },
-      error: function() {
-        console.log("erro");
-      }
-    });
+    if(($('#mySelect option:selected').text())=='Select a currency'){
+    $('.ct').popover({
+      trigger: 'focus',
+      content : "Please, Select one currency",
+      placement:"bottom"
+        }).popover('show');
+        console.log("entrou");
+    }else{
+      $.ajax({
+        url: 'https://blockchain.info/tobtc?currency='+c+'&value='+b,
+        success: function(data){
+          var a = (data);
+          $('#val').html(a);
+        },
+        error: function() {
+          console.log("erro");
+        }
+      });
+    }
   });
 });
