@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  new Vivus('graphic-svg', {type: 'sync',duration: 170});
-  new Vivus('student-svg', {type: 'delayed',duration: 170});
-  new Vivus('dev-svg', {type: 'delayed',duration: 170});
-  new Vivus('ux-svg', {type: 'delayed',duration: 170});
+  new Vivus('graphic-svg', {type: 'sync',duration: 100});
+  new Vivus('student-svg', {type: 'delayed',duration: 100});
+  new Vivus('dev-svg', {type: 'delayed',duration: 100});
+  new Vivus('ux-svg', {type: 'delayed',duration: 100});
 $("#header1").click(function(e) {
   e.preventDefault();
     $('html, body').animate({
