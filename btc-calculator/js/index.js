@@ -50,13 +50,12 @@ $('.btn-cur').click(function(){
           content : "Please, Select one currency",
           placement:"bottom"
             }).popover('show');
-            console.log("entrou");
         }else{
             $.ajax({
               url: 'https://blockchain.info/tobtc?currency='+c+'&value='+b,
               success: function(data){
                 var a = (data);
-                $('#val').html(a);
+                $('#val').html('<i class="fab fa-btc"></i>: '+a);
               },
               error: function() {
                 console.log("erro");
