@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.valor').mask('000.000.000.000.000,00', {reverse: true});
-  $('.valor2').mask('0,0000000000000000', {reverse: false});
+  $('.valor2').mask('000,0000000000000000', {reverse: false});
   $('.CUR').hide();
 $.ajax({
   url: 'https://blockchain.info/pt/ticker',
