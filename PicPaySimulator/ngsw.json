@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573605213859,
+  "timestamp": 1573610156820,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -50,7 +50,7 @@
     "/assets/images/picpay-logo.png": "5e677e97af911a743b3907a5fdc42a42dc291a21",
     "/es2015-polyfills.e17997aea7f522b8d49d.js": "9fa6f81adfc34dc84f2850c9fc9713766c376c09",
     "/favicon.ico": "1ffa1b5fe41178cd989b95d9ef4096facda21612",
-    "/index.html": "53e19be3a7be3dbad42e15dfd2fa55acb11f1451",
+    "/index.html": "7fae161acb1fd4e20955ec5a9ddac56c5fc33661",
     "/main.bf4a112c161df50bf328.js": "37a4561a2b73ce34e02aad73ef59d9642cb2d018",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
