@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573777232091,
+  "timestamp": 1573786246740,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/es2015-polyfills.e17997aea7f522b8d49d.js",
         "/favicon.ico",
         "/index.html",
-        "/main.e468989aaacd1ecf794a.js",
+        "/main.d72b66d0f992c16d90f4.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/scripts.6cf4da7113bcd1218d80.js",
@@ -50,8 +50,8 @@
     "/assets/images/picpay-logo.png": "5e677e97af911a743b3907a5fdc42a42dc291a21",
     "/es2015-polyfills.e17997aea7f522b8d49d.js": "9fa6f81adfc34dc84f2850c9fc9713766c376c09",
     "/favicon.ico": "1ffa1b5fe41178cd989b95d9ef4096facda21612",
-    "/index.html": "1af4c16968e145a857abd65301d2e1fea99e0d7c",
-    "/main.e468989aaacd1ecf794a.js": "43087acb2b13c351f92ce2d4e13bab12c2eeb5d6",
+    "/index.html": "72e4acd8e43805885a93f633e47519d77dc01060",
+    "/main.d72b66d0f992c16d90f4.js": "bd3593b5cd487e3a073bea7803f7bfbcf03d9492",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.6cf4da7113bcd1218d80.js": "2f2e9392c36d206a5e2da1b0b3c6522114707235",
